@@ -1,0 +1,9 @@
+replicaCount: 2
+
+image:
+  repository: rajusaha/myapp
+  tag: latest
+
+service:
+  port: 80
+  targetPort: 3000
