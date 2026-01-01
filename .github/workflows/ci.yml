@@ -22,4 +22,4 @@ jobs:
         with:
           context: ./app
           push: true
-          tags: rajusaha/myapp:latest
+          tags: rajusaha/myapp:${{ github.sha }}
