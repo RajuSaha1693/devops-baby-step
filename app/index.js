@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello CD Automation using helm");
+  res.send("Hello v2 from versioned deployment 🚀");
 });
 
 app.get("/health", (req, res) => {
