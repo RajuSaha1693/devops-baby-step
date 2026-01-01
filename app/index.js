@@ -10,3 +10,5 @@ app.get("/health", (req, res) => {
 });
 
 app.listen(3000, "0.0.0.0", () => console.log("App running on port 3000"));
+
+throw new Error("Crash app");
